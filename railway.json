@@ -1,10 +1,20 @@
 {
   "$schema": "https://railway.app/railway.schema.json",
   "build": {
-    "builder": "NIXPACKS"
+    "builder": "NIXPACKS",
+    "nixpacksPlan": {
+      "phases": {
+        "install": {
+          "cmds": [
+            "composer install --no-dev --optimize-autoloader",
+            "php artisan octane:install --server=swoole"
+          ]
+        }
+      }
+    }
   },
   "deploy": {
-    "startCommand": "php artisan serve --host=0.0.0.0 --port=${PORT}",
+    "startCommand": "php artisan octane:start --server=swoole --host=0.0.0.0 --port=${PORT}",
     "healthcheckPath": "/"
   }
 }
