@@ -27,7 +27,7 @@ A modern, dynamic travel booking platform built with the robust Laravel ecosyste
 |---|---|
 | ![Home](screenshots/home.png) | ![Maps](screenshots/maps.png) |
 
-| Destination Detail | Payment Gateway (Xendit) |
+| Destination Detail | Detail Location |
 |---|---|
 | ![Location](screenshots/location.png) | ![Detail-location](screenshots/detail-location.png) |
 
