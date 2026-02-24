@@ -1,4 +1,3 @@
-
 export const optionsPriceRanges = [
     {
         label: "All Price",
@@ -12,7 +11,7 @@ export const optionsPriceRanges = [
         label: "Rp100.000 - Rp1.000.000",
         value: "100000-1000000",
     },
-     {
+    {
         label: "Di atas Rp1.000.000",
         value: "1000000-999999999",
     },
@@ -20,12 +19,12 @@ export const optionsPriceRanges = [
 
 export const optionsSorts = [
     {
-        label:"Harga Terendah",
-        value:"asc",
+        label: "Harga Terendah",
+        value: "asc",
     },
     {
-        label:"Harga Tertinggi",
-        value:"desc",
+        label: "Harga Tertinggi",
+        value: "desc",
     },
 ];
 
@@ -35,20 +34,20 @@ export const optionSortByDate = [
         value: "newest",
     },
     {
-        label: "Paling lama",
-        value: "farthest",
+        label: "Paling Lama",
+        value: "oldest",
     },
 ];
 
-export const Categories = [
+export const categories = [
     {
         thumbnail: "/assets/category_mountain.svg",
-        name: "Montains",
+        name: "Mountains",
         color: "bg-xgreen",
     },
     {
         thumbnail: "/assets/category_beach.svg",
-        name: "beaches",
+        name: "Beaches",
         color: "bg-xorange",
     },
     {
@@ -61,9 +60,9 @@ export const Categories = [
         name: "History & Education",
         color: "bg-xpurple",
     },
-     {
-        thumbnail: "/assets/category_history.svg",
-        name: "History & Education",
+    {
+        thumbnail: "/assets/category_artculture.svg",
+        name: "Art & Culture",
         color: "bg-xred",
     },
     {
@@ -74,12 +73,12 @@ export const Categories = [
 ];
 
 export const categoryColors = {
-    2: "bg-xgreen",
-    3: "bg-xorange",
-    4: "bg-xgray",
-    5: "bg-xpurple",
-    6: "bg-xred",
-    7: "bg-xdarkgreen",
+    1: "bg-xgreen",
+    2: "bg-xorange",
+    3: "bg-xgray",
+    4: "bg-xpurple",
+    5: "bg-xred",
+    6: "bg-xdarkgreen",
 };
 
 export const ratingTypes = [
@@ -87,10 +86,10 @@ export const ratingTypes = [
         key: "rate_checkin",
         label: "Check in",
     },
-    { key: "rate_lokasi", label: "lokasi"},
-    { key: "rate_kebersihan", label: "kebersihan"},
-    { key: "rate_komunikasi", label: "komunikasi"},
-    { key: "rate_keakuratan", label: "Akurasi"},
+    { key: "rate_lokasi", label: "Lokasi" },
+    { key: "rate_kebersihan", label: "Kebersihan" },
+    { key: "rate_komunikasi", label: "Komunikasi" },
+    { key: "rate_keakuratan", label: "Akurasi" },
     {
         key: "rate_nilaiekonomis",
         label: "Nilai Ekonomis",
